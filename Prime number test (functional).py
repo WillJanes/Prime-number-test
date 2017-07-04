@@ -4,7 +4,7 @@ def testforprime(number):
     if number/divisor == 1.0*number/divisor:
       return False
   return True
-for number in range(2,101):
+for number in range(2,1001):
   if testforprime(number) == True:
     print number
     print
